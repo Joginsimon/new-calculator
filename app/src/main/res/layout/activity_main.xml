@@ -21,5 +21,14 @@
         android:id="@+id/addt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="#0A98F0"
+        android:textColor="#E64319"
+        android:layout_margin="10dp"
+        android:text="SUBSTRACT"
+        android:id="@+id/subt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
 
 </LinearLayout>

@@ -1,0 +1,56 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#6320ED"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO 1:"
+        android:layout_margin="2dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#97AEC1"/>
+    <EditText
+        android:id="@+id/sno1"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO 2:"
+        android:layout_margin="2dp"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#97AEC1"/>
+    <EditText
+        android:id="@+id/sno2"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sub2"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBSTRACT"
+        android:textColor="#1D2226"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/sno3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/bsub2"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back to menu"
+        android:textColor="#1D2226"
+        android:textSize="20dp"/>
+</LinearLayout>

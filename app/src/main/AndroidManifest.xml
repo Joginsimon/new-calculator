@@ -13,6 +13,9 @@
         android:theme="@style/Theme.NewCalc"
         tools:targetApi="31">
         <activity
+            android:name=".substraction"
+            android:exported="false" />
+        <activity
             android:name=".adddss"
             android:exported="false" />
         <activity
